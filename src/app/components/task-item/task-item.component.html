@@ -1,0 +1,7 @@
+<div (dblclick)="onToggle(task)">
+    <h3>{{task.text}}</h3>
+    <button (click)="onDelete(task)">Delete</button>
+    <div>
+        Reminder: {{task.reminder}}
+    </div>
+</div>
